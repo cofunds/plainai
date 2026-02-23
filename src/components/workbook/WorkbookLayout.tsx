@@ -30,7 +30,7 @@ export default function WorkbookLayout({
   const activeId = useScrollSpy(chapterIds, 100)
 
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen pt-10">
       {/* Desktop left panel - fixed, full height */}
       <aside className="hidden lg:flex fixed top-0 left-0 w-72 h-screen border-r-2 border-stone-900 bg-stone-50 z-30 flex-col">
         {/* Back link */}

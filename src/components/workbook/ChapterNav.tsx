@@ -34,7 +34,7 @@ export default function ChapterNav({
   }
 
   return (
-    <nav className="flex h-full flex-col">
+    <nav className="flex h-full flex-col pt-10">
       {/* Profession name */}
       {professionName && (
         <div className="px-5 py-4 border-b border-stone-200">
