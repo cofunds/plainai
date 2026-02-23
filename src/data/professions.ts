@@ -15,8 +15,6 @@ export const professions: Profession[] = [
   // Healthcare
   { id: 'medstudents', name: 'AI for Medical Students', shortName: 'Med Students', description: 'Study optimization, clinical cases, board exam prep, research summaries, and patient notes.', icon: 'stethoscope', status: 'active' },
   { id: 'psychologists', name: 'AI for Psychologists & Therapists', shortName: 'Psychology', description: 'Session notes, treatment plans, CBT worksheets, research reviews, and client materials.', icon: 'brain', status: 'active' },
-  { id: 'nurses', name: 'AI for Nurses', shortName: 'Nurses', description: 'Patient documentation, care plans, medication research, handoff reports, and patient education.', icon: 'heart-pulse', status: 'active' },
-  { id: 'doctors', name: 'AI for Doctors', shortName: 'Doctors', description: 'Clinical documentation, patient communication, differential diagnosis, research, and referrals.', icon: 'activity', status: 'active' },
   { id: 'pharmacists', name: 'AI for Pharmacists', shortName: 'Pharmacists', description: 'Drug interactions, patient counseling, MTM reviews, prior authorizations, and inventory.', icon: 'pill', status: 'active' },
   { id: 'healthcareadmin', name: 'AI for Healthcare Admins', shortName: 'HC Admin', description: 'Policy drafting, compliance, budget analysis, staff scheduling, and quality metrics.', icon: 'clipboard-list', status: 'active' },
   // Design & Creative
