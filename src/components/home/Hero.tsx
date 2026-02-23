@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 export default function Hero() {
   return (
     <section className="pt-28 pb-12">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6">
+      <div className="mx-auto max-w-4xl md:py-30 py-15 px-4 sm:px-6">
         <div className="flex flex-col items-center text-center">
           {/* Green accent bar */}
           <div className="mb-6 h-2 w-16 bg-green-600 border-2 border-stone-900" />
@@ -23,7 +23,6 @@ export default function Hero() {
 
           {/* Subtitle with leading dash */}
           <p className="mt-5 max-w-md text-base font-semibold text-stone-500 uppercase tracking-wide">
-            <span className="text-green-600 mr-1.5" aria-hidden="true">--</span>
             Free guides with tools, prompts & workflows for your profession
           </p>
 
